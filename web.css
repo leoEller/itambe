@@ -1,0 +1,119 @@
+    body {
+        background-image: linear-gradient(to right, #5de0e6, #004aad);
+        text-align: center;
+}
+
+    h1 {
+        position: relative;
+        text-align: center;
+        padding: 65px 0;
+        font-size: 75px;
+        color: white;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-shadow: -5px 6px 10px rgb(75, 74, 74);
+        top: -60px;
+}
+
+    .faça {
+        color: white;
+        font-size: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -170px;
+        left: 0px;
+}
+
+    .seu {
+        color: white;
+        font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        position: relative;
+        top: -213px;
+        left: 35px;
+}
+
+    div {
+        padding: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+    body {
+        background-image: linear-gradient(to right, #5de0e6, #004aad);
+        text-align: center;
+}
+
+    input {
+        position: relative;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 1px 90px;
+        background-color: transparent;
+        border: solid;
+        border-radius: 20px;
+        border-color: #233c85;
+        outline: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 250px;
+        top: 80px;
+}
+
+    .button {
+        text-align: center;
+        color: #233c85;
+        position: relative;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+        border: solid #233c85;
+        border-radius: 30px;
+        padding: 10px 0px;
+        margin: 30px;
+        cursor: pointer;
+        top: 120px;
+}
+
+    .button:hover {
+        background-color: rgb(201, 201, 201);
+}
+
+    .label1 {
+        position: absolute;
+        top: 163px;
+        left: 26%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        pointer-events: none;
+        transition: 0.5s;
+}
+
+    .label2 {
+        position: absolute;
+        top: 210px;
+        left: 26%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        pointer-events: none;
+        transition: 0.5s;
+}
+
+    .caixa1:focus ~ .label1,
+    .caixa1:valid ~ .label1 {
+        top: 143px;
+        left: 26%;
+        color: white;
+        font-size: 12px;
+}
+
+    .caixa2:focus ~ .label2,
+    .caixa2:valid ~ .label2 {
+        top: 190px;
+        left: 26%;
+        color: white;
+        font-size: 12px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="Stylesheet" href="web.css">
+        
+    </head>
+
+    <h1>itambé</h1>
+    <h2 class="faça"><strong>Faça</strong></h2>
+    <h3 class="seu"><em>SEU LOGIN</em></h3>
+    <form class="login">
+    <div>
+        <input class="caixa1" id="email" type="text" placeholder="" required>
+        <label for="email" class="label1">Email</label>
+        <br><br>
+        <input class="caixa2" id="senha" type="password" placeholder="" required>
+        <label for="senha" class="label2">Senha</label>
+        <br>
+        <input class="button" type="submit" value="Entrar">
+    
+    </div>
+
+        <script>
+        const emailAutorizado = "leo@gmail.com";
+const senhaAutorizada = "senha123";
+
+// Captura o formulário
+const form = document.querySelector(".login");
+
+// Adiciona um evento de submissão ao formulário
+    form.addEventListener("submit", function (event) {
+  event.preventDefault(); // Impede o comportamento padrão de recarregar a página
+
+  // Captura os valores inseridos pelo usuário
+    const email = document.getElementById("email").value;
+    const senha = document.getElementById("senha").value;
+
+  // Verifica se os valores correspondem aos autorizados
+    if (email === emailAutorizado && senha === senhaAutorizada) {
+    alert("Login bem-sucedido!");
+    // Você pode redirecionar o usuário para outra página aqui
+    // Redireciona o usuário para a página desejada após o login
+    window.location.href = "web2.html";
+  } else {
+    alert("Email ou senha incorretos.");
+  }
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

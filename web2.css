@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 150px;
+}
+
+.image {
+    background-image: linear-gradient(to right, #5de0e6, #004aad);
+    height: 100px;
+}
+
+.rodape{
+    background-image: linear-gradient(to right, #ffDE59, #FF914D);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #033679;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.seta{
+    margin: 20px;
+    color: #033679;
+}
+
+.máquina{
+    text-align: center;
+    color: #233c85;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: solid #233c85;
+    border-radius: 30px;
+    padding: 10px 0px;
+    width: 80%;
+    margin: 30px auto;
+    cursor: pointer;
+    display: block;
+
+}
